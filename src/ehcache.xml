@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<ehcache>
+
+	<cache name="com.hibernate.learning.mapping.Employee"
+		maxElementsInMemory="100" eternal="false" timeToIdleSeconds="5"
+		timeToLiveSeconds="200" />
+
+</ehcache>
